@@ -49,7 +49,7 @@ const Projects = () => {
                                 <h3 className="text-2xl md:text-3xl font-bold text-slate-900">{project.title}</h3>
                                 <p className="text-slate-600 text-base md:text-lg leading-relaxed">{project.description}</p>
                                 <div className="flex flex-wrap gap-2">
-                                    {project.tags.map((tag, tagIndex) => (
+                                    {project.tags && project.tags.map((tag, tagIndex) => (
                                         <span key={tagIndex} className="px-3 py-1 bg-white border border-slate-200 text-slate-500 rounded-full text-xs font-bold uppercase tracking-wider">{tag}</span>
                                     ))}
                                 </div>
