@@ -1,0 +1,171 @@
+{
+    "header": {
+        "home": "Accueil",
+        "about": "À propos",
+        "experience": "Expérience",
+        "skills": "Compétences",
+        "projects": "Projets",
+        "contact": "Contact",
+        "brand": "Carlo",
+        "brand_fullname": "Carlo Gbossou"
+    },
+    "hero": {
+        "greeting": "Bonjour, je suis",
+        "role": "Développeur Full Stack",
+        "description": "Je conçois des solutions numériques robustes, évolutives et centrées sur l'utilisateur avec un accent sur les architectures modernes et les expériences fluides.",
+        "cta": "Voir mon Travail",
+        "contact_me": "Me Contacter",
+        "download_cv": "Télécharger CV",
+        "cv_link": "/Gbossou_Folly_cv_fr.pdf"
+    },
+    "about": {
+        "title": "À Propos de Moi",
+        "description": "Développeur Full Stack avec plus de 4 ans d'expérience dans la conception de solutions numériques robustes et centrées sur l'utilisateur, notamment pour l'administration publique. Fort d'une solide expertise sur l'ensemble du cycle de développement logiciel, je suis passionné par l'innovation continue. C'est pourquoi je prépare actuellement un Master 1 en Intelligence Artificielle et Big Data (en cours du soir) afin de lier mon savoir-faire en développement avec l'analyse de données (Pandas, Numpy) et le Machine Learning, pour créer des solutions toujours plus intelligentes.",
+        "profile": "Développeur passionné axé sur la création de solutions intuitives, efficaces et pilotées par les données.",
+        "development": "Expertise Full Stack enrichie par des compétences émergentes en Data Science et IA.",
+        "languages": "Bilingue en français et anglais facilitant la communication et la technique."
+    },
+    "experience": {
+        "title": "Expérience Professionnelle",
+        "items": [
+            {
+                "company": "Direction Générale du Trésor et de la Comptabilité Publique",
+                "location": "Lomé, Togo",
+                "role": "Développeur Full Stack",
+                "period": "Mars 2024 - Présent",
+                "description": "Conception et développement de solutions critiques pour la digitalisation de l'administration gouvernementale, axées sur la performance, la sécurité et l'évolutivité.",
+                "projects": [
+                    {
+                        "name": "Système de Comptabilité Matières",
+                        "details": "Développement de fonctionnalités critiques en Java avec Spring MVC. Intégration de MyBatis pour la persistance des données. Mise en place d'une architecture robuste utilisant le framework Spring."
+                    },
+                    {
+                        "name": "Simulateur de Transaction TMS/X",
+                        "details": "Création d'une interface web intuitive avec opérations CRUD complètes. Intégration sécurisée avec l'API TMS/X (XML/SWIFT). Développement d'un système de persistance locale des transactions."
+                    },
+                    {
+                        "name": "SODIGER - Solution de Recouvrement de Créances",
+                        "details": "Redesign complet UX/UI. Intégration d'un module de paiement en ligne. Mise en œuvre de la fonctionnalité de paiement par terminal POS. Développement d'un système de scan de codes-barres."
+                    },
+                    {
+                        "name": "Système de Gestion Électronique de Documents (GED)",
+                        "details": "Architecture d'une plateforme de gestion documentaire sécurisée. Création d'une bibliothèque numérique. Mise en œuvre d'un moteur de recherche avancé. Conception d'un explorateur de fichiers intuitif."
+                    }
+                ]
+            },
+            {
+                "company": "Institut de Technologie IPNET",
+                "location": "Lomé, Togo",
+                "role": "Ingénieur de Développement Logiciel & Administrateur ERP",
+                "period": "Octobre 2023 - Février 2024",
+                "description": "Développement de nouvelles fonctionnalités pour la plateforme SCOOLDAY (+30% d'engagement utilisateur). Mise à jour et optimisation du système ERP. Migration de la base de code SCOOLDAY de Java 8 vers Java 17 et Angular 8 vers Angular 14."
+            },
+            {
+                "company": "URIM Technologies",
+                "location": "Lomé, Togo",
+                "role": "Développeur Java Full Stack",
+                "period": "Septembre 2023 - Décembre 2023",
+                "description": "Développement d'une plateforme de gestion immobilière pour le marché canadien. Création d'une plateforme de gestion de dossiers d'immigration. Analyse et conception UML."
+            },
+            {
+                "company": "AMSAR Digital",
+                "location": "Lomé, Togo",
+                "role": "Développeur Backend",
+                "period": "Août 2022 - Février 2023",
+                "description": "Projet : SEGBAYA - Plateforme E-commerce pour livres numériques, physiques et audio. Analyse complète des besoins métier. Rédaction des spécifications techniques détaillées. Développement de services backend RESTful."
+            }
+        ]
+    },
+    "skills": {
+        "title": "Compétences Techniques",
+        "categories": {
+            "backend": "Backend",
+            "frontend": "Frontend",
+            "database": "Bases de Données",
+            "devops": "DevOps & Outils"
+        },
+        "items": {
+            "backend": [
+                "Java (Spring Boot, Spring MVC, JEE)",
+                "Python",
+                "Microservices",
+                "RabbitMQ",
+                "RESTful APIs",
+                "MyBatis"
+            ],
+            "frontend": [
+                "Angular",
+                "TypeScript",
+                "JavaScript",
+                "Bootstrap",
+                "Thymeleaf",
+                "JSP"
+            ],
+            "database": [
+                "PostgreSQL",
+                "MySQL",
+                "MongoDB"
+            ],
+            "devops": [
+                "Git & GitLab CI/CD",
+                "Docker & Linux",
+                "AWS & Cloud",
+                "Jira"
+            ],
+            "IA & Big Data": [
+                "Machine Learning (Scikit-Learn)",
+                "Analyse de Données (Pandas, Numpy)",
+                "DataViz (Seaborn, Matplotlib)"
+            ]
+        }
+    },
+    "projects": {
+        "title": "Projets Phares",
+        "view_project": "Voir le Projet",
+        "more_projects": "Plus de projets",
+        "items": [
+            {
+                "title": "Ayozia",
+                "description": "SaaS de gestion de restaurant et commandes par QR code, offrant une expérience complète pour les restaurateurs et les clients.",
+                "link": "https://ayozia.cloud",
+                "image": "project1"
+            },
+            {
+                "title": "Sygpress",
+                "description": "Système complet de gestion de pressing, permettant de suivre les commandes, gérer les clients et optimiser les opérations quotidiennes.",
+                "link": "https://sygpress.gfolly.com",
+                "image": "project2"
+            },
+            {
+                "title": "Evergreen Bookstore",
+                "description": "Plateforme e-commerce spécialisée dans la vente de livres, avec catalogue complet et gestion sécurisée des achats.",
+                "link": "https://github.com/davilla1993/evergreenbookstore",
+                "image": "project3"
+            },
+            {
+                "title": "Maison Recla",
+                "description": "Plateforme de gestion hôtelière couvrant la réservation de chambres et la commande de nourriture pour les clients séjournant à l'hôtel.",
+                "link": "https://github.com/davilla1993/maison-recla-project",
+                "image": "project4"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Me Contacter",
+        "email": "folly.gbossou@gmail.com",
+        "phone": "+228 91 55 48 74",
+        "location": "Lomé, Togo",
+        "linkedin": "Profil LinkedIn",
+        "form": {
+            "name": "Nom",
+            "email": "Email",
+            "message": "Message",
+            "send": "Envoyer le Message"
+        }
+    },
+    "footer": {
+        "brand": "Carlo",
+        "description": "Créer des expériences numériques qui comptent, avec passion et précision.",
+        "copyright": "© 2025 Carlo Gbossou. Tous droits réservés."
+    }
+}

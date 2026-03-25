@@ -1,0 +1,171 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "experience": "Experience",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact",
+        "brand": "Carlo",
+        "brand_fullname": "Carlo Gbossou"
+    },
+    "hero": {
+        "greeting": "Hello, I'm",
+        "role": "Full Stack Developer",
+        "description": "I build robust, scalable, and user-centric digital solutions with a focus on modern architectures and seamless user experiences.",
+        "cta": "See My Work",
+        "contact_me": "Contact Me",
+        "download_cv": "Download CV",
+        "cv_link": "/Gbossou_Folly_cv_en.pdf"
+    },
+    "about": {
+        "title": "About Me",
+        "description": "Full Stack Developer with over 4 years of experience designing robust and user-centric digital solutions, particularly for public administration. With proven expertise across the complete software development lifecycle, I am deeply passionate about continuous innovation. That is why I am currently pursuing a Master's degree in Artificial Intelligence and Big Data (evening classes) to bridge my software engineering background with Data Analysis (Pandas, Numpy) and Machine Learning, aiming to build increasingly intelligent, data-driven applications.",
+        "profile": "Passionate developer focused on creating intuitive, efficient, and data-driven solutions.",
+        "development": "Full Stack expertise enriched by emerging capabilities in Data Science and AI.",
+        "languages": "Fluent in French and English bridging communication and technical gaps."
+    },
+    "experience": {
+        "title": "Professional Experience",
+        "items": [
+            {
+                "company": "Directorate General of Treasury and Public Accounting",
+                "location": "Lomé, Togo",
+                "role": "Full Stack Developer",
+                "period": "March 2024 - Present",
+                "description": "Design and develop mission-critical solutions for government administration digitalization with focus on performance, security and scalability.",
+                "projects": [
+                    {
+                        "name": "Materials Accounting Software System",
+                        "details": "Developed critical Java-based features using Spring MVC. Integrated MyBatis for data persistence. Established robust architecture using Spring framework."
+                    },
+                    {
+                        "name": "TMS/X Transaction Simulator",
+                        "details": "Built intuitive web interface with full CRUD operations. Implemented secure integration with TMS/X API (XML/SWIFT). Developed local transaction persistence system."
+                    },
+                    {
+                        "name": "SODIGER - Digital Debt Recovery Solution",
+                        "details": "Led complete UX/UI redesign. Integrated online payment module. Implemented POS terminal payment functionality. Developed barcode scanning system."
+                    },
+                    {
+                        "name": "Electronic Document Management (EDM) System",
+                        "details": "Architected secure centralized document management platform. Built digital library. Implemented advanced search engine. Designed intuitive file explorer."
+                    }
+                ]
+            },
+            {
+                "company": "IPNET Institute of Technology",
+                "location": "Lomé, Togo",
+                "role": "Software Development Engineer & ERP Administrator",
+                "period": "October 2023 - February 2024",
+                "description": "Developed new features for SCOOLDAY platform resulting in 30% increase in user engagement. Updated and optimized ERP system. Migrated SCOOLDAY codebase from Java 8 to Java 17 and Angular 8 to Angular 14."
+            },
+            {
+                "company": "URIM Technologies",
+                "location": "Lomé, Togo",
+                "role": "Java Full Stack Developer",
+                "period": "September 2023 - December 2023",
+                "description": "Developed real estate management platform for Canadian market. Created immigration case management platform for agencies. Conducted UML analysis and design."
+            },
+            {
+                "company": "AMSAR Digital",
+                "location": "Lomé, Togo",
+                "role": "Backend Developer",
+                "period": "August 2022 - February 2023",
+                "description": "Project: SEGBAYA - E-commerce Platform for Digital, Physical and Audio Books. Conducted comprehensive business requirements analysis. Authored detailed technical specifications. Developed RESTful backend services."
+            }
+        ]
+    },
+    "skills": {
+        "title": "Technical Skills",
+        "categories": {
+            "backend": "Backend",
+            "frontend": "Frontend",
+            "database": "Databases",
+            "devops": "DevOps & Tools"
+        },
+        "items": {
+            "backend": [
+                "Java (Spring Boot, Spring MVC, JEE)",
+                "Python",
+                "Microservices",
+                "RabbitMQ",
+                "RESTful APIs",
+                "MyBatis"
+            ],
+            "frontend": [
+                "Angular",
+                "TypeScript",
+                "JavaScript",
+                "Bootstrap",
+                "Thymeleaf",
+                "JSP"
+            ],
+            "database": [
+                "PostgreSQL",
+                "MySQL",
+                "MongoDB"
+            ],
+            "devops": [
+                "Git & GitLab CI/CD",
+                "Docker & Linux",
+                "AWS & Cloud",
+                "Jira"
+            ],
+            "AI & Big Data": [
+                "Machine Learning (Scikit-Learn)",
+                "Data Analysis (Pandas, Numpy)",
+                "DataViz (Seaborn, Matplotlib)"
+            ]
+        }
+    },
+    "projects": {
+        "title": "Featured Projects",
+        "view_project": "View Project",
+        "more_projects": "More Projects",
+        "items": [
+            {
+                "title": "Ayozia",
+                "description": "Restaurant management SaaS with QR code ordering, providing a complete experience for restaurant owners and customers.",
+                "link": "https://ayozia.cloud",
+                "image": "project1"
+            },
+            {
+                "title": "Sygpress",
+                "description": "Comprehensive dry cleaning management system, tracking orders, managing customers, and optimizing daily operations.",
+                "link": "https://sygpress.gfolly.com",
+                "image": "project2"
+            },
+            {
+                "title": "Evergreen Bookstore",
+                "description": "E-commerce platform specialized in selling books, featuring a complete catalog and secure purchase management.",
+                "link": "https://github.com/davilla1993/evergreenbookstore",
+                "image": "project3"
+            },
+            {
+                "title": "Maison Recla",
+                "description": "Hotel management platform covering room reservations and food ordering for hotel guests.",
+                "link": "https://github.com/davilla1993/maison-recla-project",
+                "image": "project4"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Get In Touch",
+        "email": "folly.gbossou@gmail.com",
+        "phone": "+228 91 55 48 74",
+        "location": "Lomé, Togo",
+        "linkedin": "LinkedIn Profile",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "send": "Send Message"
+        }
+    },
+    "footer": {
+        "brand": "Carlo",
+        "description": "Building digital experiences that matter with passion and precision.",
+        "copyright": "© 2025 Carlo Gbossou. All rights reserved."
+    }
+}
