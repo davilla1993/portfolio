@@ -5,4 +5,4 @@ nixPkgs = ["...", "nodejs"]
 cmds = ["npm install", "npm run build"]
 
 [start]
-cmd = "serve -s dist"
+cmd = "npx serve -s dist"
