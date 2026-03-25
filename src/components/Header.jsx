@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Globe, Sun, Moon } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { useTheme } from '../context/ThemeContext';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const { t, i18n } = useTranslation();
-  const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,24 +45,16 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="px-4 py-2 text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-all duration-300 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20"
+                className="px-4 py-2 text-slate-600 hover:text-blue-600 font-medium transition-all duration-300 rounded-lg hover:bg-blue-50"
               >
                 {item.name}
               </a>
             ))}
 
-            <div className="flex items-center space-x-2 ml-4 pl-4 border-l border-slate-200 dark:border-slate-800">
-              <button
-                onClick={toggleTheme}
-                className="p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors text-slate-600 dark:text-slate-400"
-                aria-label="Toggle theme"
-              >
-                {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-              </button>
-
+            <div className="flex items-center space-x-2 ml-4 pl-4 border-l border-slate-200">
               <button
                 onClick={toggleLanguage}
-                className="flex items-center space-x-2 px-3 py-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 font-medium transition-all duration-300"
+                className="flex items-center space-x-2 px-3 py-2 rounded-xl hover:bg-slate-100 text-slate-700 font-medium transition-all duration-300"
               >
                 <Globe className="w-4 h-4 text-blue-500" />
                 <span className="text-sm">{i18n.language.toUpperCase()}</span>
@@ -75,15 +65,9 @@ const Header = () => {
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-2">
             <button
-              onClick={toggleTheme}
-              className="p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors text-slate-600 dark:text-slate-400"
-            >
-              {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-            </button>
-
-            <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-xl text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300"
+              className="p-3 rounded-xl text-slate-700 hover:bg-slate-100 transition-all duration-300"
+              aria-label="Toggle menu"
             >
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -93,13 +77,13 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="md:hidden glass border-t border-white/10 dark:border-gray-800/10 animate-in slide-in-from-top duration-300">
-          <div className="px-4 pt-2 pb-6 space-y-1">
+        <div className="md:hidden bg-white/95 backdrop-blur-lg border-t border-slate-100 shadow-xl">
+          <div className="px-4 pt-4 pb-8 space-y-2">
             {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="block px-4 py-3 rounded-xl text-base font-medium text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-all duration-300"
+                className="block px-6 py-4 rounded-2xl text-lg font-semibold text-slate-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-300 shadow-sm border border-slate-50"
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}
@@ -110,9 +94,9 @@ const Header = () => {
                 toggleLanguage();
                 setIsOpen(false);
               }}
-              className="w-full text-left flex items-center space-x-3 px-4 py-3 rounded-xl text-base font-medium text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-all duration-300"
+              className="w-full text-left flex items-center space-x-4 px-6 py-4 rounded-2xl text-lg font-semibold text-slate-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-300 shadow-sm border border-slate-50"
             >
-              <Globe className="w-5 h-5 text-blue-500" />
+              <Globe className="w-6 h-6 text-blue-500" />
               <span>{i18n.language === 'en' ? 'Switch to French' : 'Passer en Anglais'}</span>
             </button>
           </div>
