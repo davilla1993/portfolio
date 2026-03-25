@@ -152,7 +152,9 @@
     },
     "contact": {
         "title": "Me Contacter",
-        "email": "folly.gbossou@gmail.com",
+        "subtitle": "Travaillons Ensemble",
+        "description": "Vous avez un projet en tête ou vous souhaitez simplement discuter de technologie ? N'hésitez pas à m'envoyer un message !",
+        "email": "carlogbossou93@gmail.com",
         "phone": "+228 91 55 48 74",
         "location": "Lomé, Togo",
         "linkedin": "Profil LinkedIn",

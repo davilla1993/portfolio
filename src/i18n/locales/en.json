@@ -152,7 +152,9 @@
     },
     "contact": {
         "title": "Get In Touch",
-        "email": "folly.gbossou@gmail.com",
+        "subtitle": "Let's Work Together",
+        "description": "Have a project in mind or just want to chat about technology? Feel free to send me a message!",
+        "email": "carlogbossou93@gmail.com",
         "phone": "+228 91 55 48 74",
         "location": "Lomé, Togo",
         "linkedin": "LinkedIn Profile",

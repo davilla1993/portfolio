@@ -28,9 +28,9 @@ const Contact = () => {
 
             <div className="space-y-6">
               {[
-                { icon: Mail, label: 'Email', value: 'davilla1993@gmail.com', href: 'mailto:davilla1993@gmail.com' },
-                { icon: Phone, label: 'Phone', value: '+228 91 55 48 74', href: 'tel:+22891554874' },
-                { icon: MapPin, label: 'Location', value: 'Lomé, Togo', href: '#' }
+                { icon: Mail, label: 'Email', value: 'carlogbossou93@gmail.com', href: 'mailto:carlogbossou93@gmail.com' },
+                { icon: Phone, label: 'Phone', value: t('contact.phone'), href: `tel:${t('contact.phone').replace(/\s/g, '')}` },
+                { icon: MapPin, label: 'Location', value: t('contact.location'), href: '#' }
               ].map((item, index) => (
                 <a
                   key={index}
@@ -53,7 +53,7 @@ const Contact = () => {
             <form className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label className="text-sm font-bold text-slate-700 ml-1">Name</label>
+                  <label className="text-sm font-bold text-slate-700 ml-1">{t('contact.form.name')}</label>
                   <input
                     type="text"
                     className="w-full px-6 py-4 bg-slate-50 border border-slate-100 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-medium"
@@ -61,7 +61,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm font-bold text-slate-700 ml-1">Email</label>
+                  <label className="text-sm font-bold text-slate-700 ml-1">{t('contact.form.email')}</label>
                   <input
                     type="email"
                     className="w-full px-6 py-4 bg-slate-50 border border-slate-100 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-medium"
@@ -78,7 +78,7 @@ const Contact = () => {
                 />
               </div>
               <div className="space-y-2">
-                <label className="text-sm font-bold text-slate-700 ml-1">Message</label>
+                <label className="text-sm font-bold text-slate-700 ml-1">{t('contact.form.message')}</label>
                 <textarea
                   rows="5"
                   className="w-full px-6 py-4 bg-slate-50 border border-slate-100 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all font-medium"
@@ -86,7 +86,7 @@ const Contact = () => {
                 ></textarea>
               </div>
               <button type="submit" className="btn-primary w-full py-5 text-lg font-bold flex justify-center items-center gap-3">
-                Send Message
+                {t('contact.form.send')}
                 <Send className="w-5 h-5" />
               </button>
             </form>
