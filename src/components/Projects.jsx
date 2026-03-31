@@ -36,12 +36,16 @@ const Projects = () => {
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
                                     <div className="flex gap-4">
-                                        <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-3 bg-white/20 backdrop-blur-md rounded-xl text-white hover:bg-white hover:text-slate-900 transition-all font-bold">
-                                            <Github className="w-5 h-5" />
-                                        </a>
-                                        <a href={project.demo} target="_blank" rel="noopener noreferrer" className="p-3 bg-white/20 backdrop-blur-md rounded-xl text-white hover:bg-white hover:text-slate-900 transition-all font-bold">
-                                            <ExternalLink className="w-5 h-5" />
-                                        </a>
+                                        {project.github && project.github !== '#' && (
+                                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-3 bg-white/20 backdrop-blur-md rounded-xl text-white hover:bg-white hover:text-slate-900 transition-all font-bold">
+                                                <Github className="w-5 h-5" />
+                                            </a>
+                                        )}
+                                        {project.demo && project.demo !== '#' && (
+                                            <a href={project.demo} target="_blank" rel="noopener noreferrer" className="p-3 bg-white/20 backdrop-blur-md rounded-xl text-white hover:bg-white hover:text-slate-900 transition-all font-bold">
+                                                <ExternalLink className="w-5 h-5" />
+                                            </a>
+                                        )}
                                     </div>
                                 </div>
                             </div>

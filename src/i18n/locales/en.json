@@ -127,25 +127,33 @@
             {
                 "title": "Ayozia",
                 "description": "Restaurant management SaaS with QR code ordering, providing a complete experience for restaurant owners and customers.",
-                "link": "https://ayozia.cloud",
+                "demo": "https://ayozia.cloud",
+                "github": "https://github.com/davilla1993",
+                "tags": ["React", "Tailwind", "Node.js"],
                 "image": "project1"
             },
             {
                 "title": "Sygpress",
                 "description": "Comprehensive dry cleaning management system, tracking orders, managing customers, and optimizing daily operations.",
-                "link": "https://sygpress.gfolly.com",
+                "demo": "https://sygpress.gfolly.com",
+                "github": "https://github.com/davilla1993/sygpress",
+                "tags": ["React", "FastAPI", "PostgreSQL"],
                 "image": "project2"
             },
             {
                 "title": "Evergreen Bookstore",
                 "description": "E-commerce platform specialized in selling books, featuring a complete catalog and secure purchase management.",
-                "link": "https://github.com/davilla1993/evergreenbookstore",
+                "demo": "#",
+                "github": "https://github.com/davilla1993/evergreenbookstore",
+                "tags": ["React", "Context API", "CSS Modules"],
                 "image": "project3"
             },
             {
                 "title": "Maison Recla",
                 "description": "Hotel management platform covering room reservations and food ordering for hotel guests.",
-                "link": "https://github.com/davilla1993/maison-recla-project",
+                "demo": "#",
+                "github": "https://github.com/davilla1993/maison-recla-project",
+                "tags": ["React", "Firebase", "Styled Components"],
                 "image": "project4"
             }
         ]

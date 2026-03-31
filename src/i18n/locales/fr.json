@@ -127,25 +127,33 @@
             {
                 "title": "Ayozia",
                 "description": "SaaS de gestion de restaurant et commandes par QR code, offrant une expérience complète pour les restaurateurs et les clients.",
-                "link": "https://ayozia.cloud",
+                "demo": "https://ayozia.cloud",
+                "github": "https://github.com/davilla1993",
+                "tags": ["React", "Tailwind", "Node.js"],
                 "image": "project1"
             },
             {
                 "title": "Sygpress",
                 "description": "Système complet de gestion de pressing, permettant de suivre les commandes, gérer les clients et optimiser les opérations quotidiennes.",
-                "link": "https://sygpress.gfolly.com",
+                "demo": "https://sygpress.gfolly.com",
+                "github": "https://github.com/davilla1993/sygpress",
+                "tags": ["React", "FastAPI", "PostgreSQL"],
                 "image": "project2"
             },
             {
                 "title": "Evergreen Bookstore",
                 "description": "Plateforme e-commerce spécialisée dans la vente de livres, avec catalogue complet et gestion sécurisée des achats.",
-                "link": "https://github.com/davilla1993/evergreenbookstore",
+                "demo": "#",
+                "github": "https://github.com/davilla1993/evergreenbookstore",
+                "tags": ["React", "Context API", "CSS Modules"],
                 "image": "project3"
             },
             {
                 "title": "Maison Recla",
                 "description": "Plateforme de gestion hôtelière couvrant la réservation de chambres et la commande de nourriture pour les clients séjournant à l'hôtel.",
-                "link": "https://github.com/davilla1993/maison-recla-project",
+                "demo": "#",
+                "github": "https://github.com/davilla1993/maison-recla-project",
+                "tags": ["React", "Firebase", "Styled Components"],
                 "image": "project4"
             }
         ]
